@@ -29,8 +29,8 @@ h2 {
 
 .question-container {
   display: block;
-  margin: 30px;
-  padding: 50px;
+  margin: 20px;
+  padding: 10px;
   border: 2px solid black;
   box-shadow: 2px 2px;
 }
