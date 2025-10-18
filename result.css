@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 30px;
+  padding: 80px;
+  font-family: 'Roboto', Arial;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px;
+}
+
+h2 {
+  user-select: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 10px;
+}
+
+.resultMsg {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 1080px) {
+  .card {
+  padding: 70px;
+  width: 100%;
+}
+
+}
