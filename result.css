@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card {
+  display: grid;
+
+  row-gap: 0.1rem;
+  padding: 30px;
+  font-family: 'Roboto', Arial;
+  border: 2px solid black;
+  box-shadow: 2px 2px 2px;
+}
+
+h2 {
+  user-select: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.resultMsg {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.shareBtn {
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 1.1rem;
+  box-shadow: 2px 2px 2px;
+  cursor: pointer;
+
+}
